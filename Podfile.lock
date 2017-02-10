@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Dodo (7.0.0)
+  - FBSDKCoreKit (4.19.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.19.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.19.0):
+    - FBSDKCoreKit
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - M13ProgressSuite (1.2.9)
+  - SDWebImage/Core (3.8.2)
+  - SDWebImage/WebP (3.8.2):
+    - libwebp
+    - SDWebImage/Core
+  - UIImageView+SDWebImage_M13ProgressSuite (0.1.1):
+    - M13ProgressSuite
+    - SDWebImage/WebP
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Bolts
+  - Dodo (~> 7.0)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - UIImageView+SDWebImage_M13ProgressSuite
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Dodo: c66cf87f905dfde6d2ff660835975694927cb694
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
+  FBSDKShareKit: 5953758366278430dc322d5cdc906db361ed7f81
+  libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
+  M13ProgressSuite: ea9f7263e73e9215e6849dfa54e29ee0ad6a145c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UIImageView+SDWebImage_M13ProgressSuite: 01693ceed1ec4ca2c36f8af71d54993d5c86fd07
+
+PODFILE CHECKSUM: e61595326b46fb4811049004e2c5c9363d7add87
+
+COCOAPODS: 1.1.1
